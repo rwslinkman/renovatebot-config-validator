@@ -1,0 +1,17 @@
+{
+  "name": "renovate-config-validator",
+  "version": "1.0.0",
+  "description": "Utility to verify renovatebot configuration",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "renovate"
+  ],
+  "author": "Rick Slinkman",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "renovate": "^36.40.3"
+  }
+}
