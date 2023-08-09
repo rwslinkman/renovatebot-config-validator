@@ -4,4 +4,4 @@ COPY package.json package-lock.json ./
 RUN npm ci
 COPY . .
 
-ENTRYPOINT ["node_modules/.bin/renovate-config-validator"]
+ENTRYPOINT ["./node_modules/.bin/renovate-config-validator"]
